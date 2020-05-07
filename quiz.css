@@ -1,0 +1,82 @@
+.options-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  
+}
+
+.options-container:hover {
+  cursor: pointer;
+}
+
+.options-text {
+  color: orange;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #8fdba1;
+  color: white;
+}
+
+.correct .options-text {
+  color: white;
+}
+
+.incorrect {
+  background-color: #ee081f;
+  color: white;
+}
+
+.incorrect .options-text {
+  color: white;
+}
+
+#next-btn {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: orange;
+  width: 14rem;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+}
+
+#next-btn h3 {
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+#next-btn:hover {
+  cursor: pointer;
+ 
+}
+
+/* Head of Display */
+
+#hod {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hd-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hod-main-text {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+#hod-item {
+  border: 0.1rem orange;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
